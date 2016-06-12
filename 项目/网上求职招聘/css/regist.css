@@ -1,0 +1,23 @@
+.topBg .select_option{
+	width:74px;
+	overflow: hidden;
+	background:#222C50;
+	float:right;
+	clear:both;
+	position: relative;
+	right:200px;
+}
+.user_option{
+
+}
+.select_option li{
+	width:74px;
+	text-align: center;
+	border-bottom:1px dotted #fff;
+}
+.select_option li a{
+	
+}
+.regist_content{
+	margin:60px auto;
+}

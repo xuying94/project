@@ -1,0 +1,21 @@
+define(['jquery'],function(){
+    $(function(){
+        $(function(){
+            $('#username').blur(function(){
+
+                $.get("user/check_name",{username:this.value},function(data){
+
+                    if(data=='success'){
+                        $check_name=$('#name_tip').html('');
+                    }else{
+                        $check_name=$('#name_tip').html("*用户不可用");
+                    }
+                },"text");
+            });
+        });
+       /* return $check_name;*/
+
+    });
+});
+
+

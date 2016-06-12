@@ -1,0 +1,188 @@
+.success{
+    color:white;
+    font-size:20px;
+    margin-left:630px;
+    margin-top:60px;
+}
+#setname{
+    color: #fba1a1;
+    border-bottom-color: #fba1a1;
+}
+#message{
+    color: #fba1a1;
+    border-bottom-color: #fba1a1;
+}
+#success{
+    color: #fba1a1;
+    border-bottom-color: #fba1a1;
+}
+#bg{
+    background:url("../img/zhuce.png") no-repeat;
+   
+}
+#footerbg{
+    background:url("../img/footerbg.jpg") no-repeat;
+}
+.top{
+    display :block;
+    font-size:30px;
+    margin-left: 180px;
+    padding-top: 50px;
+    color: #fff;
+    border-bottom-style: solid;
+    border-bottom-width:thin;
+    width:250px;
+
+}
+.step li a{
+    font-size:18px;
+}
+#zhuce_baker{
+    margin-top:60px;
+    float: left;
+    margin-left: 510px;
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    background: #fba1a1;
+    color: #fff;
+    font-size: 16px;
+}
+#ok{
+    margin-top:60px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    background: #fba1a1;
+    color: #fff;
+    font-size: 16px;
+}
+#bgpic{
+    background:white;
+    height: 270px;
+    padding-top:5px;
+    margin-top: 20px;
+    width: 70%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -35%;
+    opacity: 0.2;
+    z-index: -3;
+}
+#contentid{
+        margin-top: 150px;
+        margin: 0 auto;
+        display: none;
+}
+#conbaker{
+    width:400px;
+    height:600px;
+    margin-left:37%;
+}
+.baker{
+        color:white;
+        font-size:30px;
+        margin-top: 170px;
+        margin-left: 18%;
+        border-bottom-style: solid;
+        border-bottom-width: thin;
+        width: 850px;
+}
+.name{
+    font-size:18px;
+    float:left;
+    margin:10px;
+    margin-right:5%;
+}
+.notice{
+    font-size:18px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    color: white;
+    display:block;
+}
+#a{
+   float:left;
+   color: black;
+}
+.sex{
+    /*padding-top:5%;*/
+    padding-left: 2.5%; 
+    font-size:18px;
+    display: inline-block;
+    float: left;
+    padding-right:7%;
+}
+.man{
+    display: inline-block;
+    padding-right: 10%;
+    padding-left:10%;
+}
+.women{
+    display: inline-block;
+    padding-right:150px;
+}
+#b{
+    float: left;
+    margin-left:-2%;
+}
+.id_num{
+    float:left;
+    font-size:18px;
+    display: inline-block;
+    margin-left:-34%;
+}
+.id_check{
+    font-size:23px;
+    color:#000;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color:#fff;
+    padding-top: 10%;
+    margin-left:-40%;
+    width:760px;
+}
+.pic1{
+    color: #000;
+    font-size:18px;
+}
+.health_check{
+    font-size:23px;
+    color:#000;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color:#fff;
+    margin-left:-40%;
+    width:760px;
+}
+.zige_check{
+    font-size:23px;
+    color:#000;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color:#000;
+    margin-left:-40%;
+    width:760px;
+}
+#pic_name{
+    width: 200px;
+    height: 30px;
+    color: #000;
+    font-size:18px;
+}
+#send{
+    margin-top:60px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    background: #fba1a1;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+}

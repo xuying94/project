@@ -1,0 +1,404 @@
+* {
+	margin: 0;
+	padding: 0;
+/*	font-size: 14px;*/
+}
+
+	/*	#left ul{
+cursor: pointer;
+}*/
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+
+.nav{
+	width: 100%;
+	height: 52px;
+	background-color: #fba1a1;
+	position: fixed;
+	margin-top: 0px;
+}
+.nav .logo{
+	position: fixed;
+	margin-top: 0px;
+	margin-left: 135px;
+	width: 100px;
+	height: 52px;
+}
+.nav .nav_pic{
+	width: 140px;
+	height: 100px;
+	position: absolute;
+	left: 605px;
+	z-index: -1;
+}
+.menu{
+	display: inline-block;
+	margin-left: 635px;
+}
+
+.menu li a{
+	color: #fff;
+}
+
+.menu li{
+	font-size: 14px;
+	list-style: disc;
+	float: left;
+	margin-left: 20px;
+	color: #fff;
+	margin-right: 20px;
+	margin-top: 18px;
+}
+.nav ul .main_page{
+	color: #fba1a1;
+	list-style: none;
+	font-size: 20px;
+}
+.nav ul .my_order{
+	list-style: none;
+}
+
+.header .nav_bg{
+	width: 100%;
+	height: 190px;
+	float: left;
+	margin-top: 52px;
+	position: absolute;
+}
+.my_pic{
+	position: absolute;
+	float: left;
+	margin-top: 168px;
+	margin-left: 187px;
+}
+.my_headimg{
+	position: absolute;
+	float: left;
+	margin-left: 193px;
+	margin-top: 172px;
+	width: 140px;
+	height: 140px;
+}
+
+.left_menu{
+	margin-left: 36px;
+	position: absolute;
+	background: url(../img/list_bg.png);
+	margin-top: 331px;
+	width: 250px;
+	height: 300px;
+}
+.left_menu li{
+	margin-top: 10px;
+	width: 250px;
+	height: 48px;
+	line-height: 42px;
+	text-align: center;
+}
+.left_menu li a{
+	color: #fff;
+	font-size: 18px;
+	
+}
+
+.active_bg{
+	background: url(../img/list_bg_active.png);
+}
+
+.footer{
+	width: 100%;
+	height: 200px;
+	background-color: #4e4e4e;
+}
+
+
+.container{
+	width: 100%;
+	height: 2000px;
+	position: absolute;
+
+	/*left: 80px;*/
+	background-color: #f9f9f9;
+	z-index: -1;
+}
+
+#left{
+	width: 263px;
+	background-color: #fff;
+	margin-left: 26px;
+	margin-top: 90px;
+	float: left;
+}
+#left #category{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	text-indent: 45px;
+	background-color: #8fe8d2;
+	color: #41c7a6;
+	font-size: 16px;
+	/*font-family: "微软雅黑";*/
+}
+#left #left-list{
+	padding: 0 10px;
+	width: 244px;
+	background-color: #fff;
+}
+#left #left-list .category1{
+	width: 100%;
+	height: 36px;
+	line-height: 38px;
+	text-indent: 20px;
+	color: #8fe8d2;
+	font-size: 16px;
+/*font-family: "微软雅黑";*/
+}
+
+#search{
+	width: 837px;
+	background-color: #fff;
+	float: right;
+	margin-right: 23px;
+	margin-top: 90px;
+}
+#search .list{
+	margin-left: 18px;
+}
+
+#search #all-category{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	font-size: 18px;
+/*font-family: "微软雅黑";*/
+	border-bottom: 1px solid #d6d6d6;
+	color: #6b6b6b;
+}
+#search #all-category #cate{
+	display: block;
+	float: left;
+	margin-left: 10px;
+	width: 34px;
+	height: 34px;
+	line-height: 45px;
+	margin-top: 7px;
+	margin-right: 15px;
+}
+#search .search-list{
+	width: 100%;
+	height: 45px;
+	border-bottom: 1px solid #d6d6d6;
+	line-height: 45px;
+}
+#search #search-list1, #search #search-list2{
+	border: none;
+}
+#search .search-list #rank{
+	margin-left: 42px;
+}
+#search #search-result{
+	background-color: #fdd5d5;
+	color: #636363;
+	font-family: "微软雅黑";
+	border: none;
+}
+#search #search-result p{
+	display: block;
+	height: 27px;
+	font-size: 15px;
+	text-indent: 42px;
+	float: left;
+	margin-right: 49px;
+}
+#search #search-result #key{
+	width: 128px;
+	height: 23px;
+	/*float: left;*/
+	margin-top: 9px;
+	margin-right: 15px;
+}
+#search #search-result .search-price{
+	width: 49px;
+	height: 23px;
+	margin-top: 9px;
+}
+#search #search-result #btn{
+	width: 86px;
+	height: 25px;
+	margin-top: 9px;
+	margin-left: 13px;
+	background-color: #8fe8d2;
+	color: #fff;
+    font-size: 15px;
+ /*font-family: "微软雅黑";*/
+	border: none;
+	cursor: pointer;
+}
+#search .search-list span{
+	display: block;
+	width: 142px;
+	height: 27px;
+	background-color: #8766bc;
+	color: #fff;
+	line-height: 27px;
+	margin: 0 auto;
+/*font-family: "微软雅黑";*/
+	font-size: 14px;
+	text-indent: 42px;
+	cursor: pointer;
+}
+
+#search  .category2{
+	display: block;
+	height: 20px;
+	float: left;
+/*font-family: "微软雅黑";*/
+	color: #6b6b6b;
+	margin-right: 23px;
+	font-size: 15px;
+}
+#search .category2 img{
+	display: block;
+	width: 18px;
+	height: 18px;
+	float: right;
+	margin-top:13px;
+}
+#search  .category2 a{
+	color: #6b6b6b;
+}
+#content{
+	width: 861px;
+	float: right;
+	margin-top: 24px;
+}
+#content .cake{
+	width: 264px;
+	height: 461px;
+	background-color: #fff;
+	float: left;
+	margin-right: 23px;
+	margin-bottom: 19px;
+}
+#content .cake img{
+	width: 100%;
+	height: 264px;
+}
+.desc{
+	/*height: 160px;*/
+/*font-family: "微软雅黑";*/
+	/*font-size: 10px;*/
+}
+.row-1{
+	height: 70px;
+	margin-bottom: 10px;
+}
+.row-1 span{
+	color: #f88181;
+	font-size: 24px;
+	display: block;
+	padding-top: 8px;
+	margin-left: 12px;
+	margin-bottom: 0px;
+}
+.row-1 p{
+	height: 33px;
+	margin-left: 12px;
+	margin-top: 5px;
+	font-size: 15px;
+}
+.row-1 p a{
+	color: #111111;
+}
+
+.row-2{
+	height: 26px;
+}
+.row-2 span{
+	font-size: 15px;
+	font-weight: bold;
+	color: #515151;
+}
+.row-2 span strong{
+	color: #76e4c8;
+/*	font-size: 15px;*/
+}
+.row-2-i{
+	display: inline-block;
+	width: 1px;
+	height: 9px;
+	margin-left: 5px;
+	background: url(../img/cakem.png) -17px 0 no-repeat;
+}
+.row-2-I{
+	display: inline-block;
+	width: 13px;
+	height: 12px;
+	margin-left: 10px;
+	margin-top: 2px;
+	background: url(../img/cakem.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+#content{
+	clear: both;
+}
+#content .row-3{
+	font-size: 13px;
+	height: 28px;
+	margin: 10px;
+}
+#content .row-3 .row-3-i{
+	float: left;
+}
+#content .row-3 .baker-name{
+	display: inline-block;
+	float: left;
+	margin-right: 15px;
+}
+
+#content .row-3 .baker-city{
+	display: inline-block;
+	margin-right: 25px;
+	/*margin-left: 40px;*/
+	line-height: 28px;
+	float: right;
+}
+
+#content .row-3 span{
+/*font-family: "微软雅黑";*/
+	font-weight: bold;
+	color: #959595;
+	font-size: 15px;
+	line-height: 28px;
+	display: inline-block;
+}
+#content .cake .row-3-i{
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	/*margin-left: 10px;*/
+	
+}
+#content .cake .row-3-i img{
+	width: 100%;
+	height: 100%;
+}
+.row-4{
+	margin-top: 5px;
+}
+.row-4 span{
+	width: 64px;
+	height: 24px;
+	color: #fff;
+	padding: 5px 14px;
+	border-radius: 20px;
+	font-size: 13px;
+
+}
+
+

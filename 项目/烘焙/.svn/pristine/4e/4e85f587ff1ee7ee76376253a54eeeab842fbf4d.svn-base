@@ -1,0 +1,79 @@
+.add{
+	width: 832px;
+	float: right;
+	margin-right: 34px;
+}
+.p_one{
+	float: right;
+	margin-top:18px;
+	margin-right: 18px;
+}
+.addition{
+	background-color: #fff;
+	width: 832px;
+	height: 766px;
+	margin-top: 92px;
+}
+.add{
+	font-family: "微软雅黑";
+	color: #717171;
+	font-size: 18px;
+}
+.kind ul li{
+	float: left;
+	font-size: 14px;
+	/*padding: 9px 28px;*/
+	border: 1px solid #717171;
+	background-color:#f4f4f4; 
+	text-align: center;
+	line-height: 30px;
+}
+.standard ul li{
+	float: left;
+	font-size: 14px;
+	/*padding: 9px 28px;*/
+	border: 1px solid #717171;
+	background-color:#f4f4f4; 
+	margin: 0 10px 4px 0;
+	width: 114px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.content{
+	position: relative;
+	padding: 18px 94px 0 0;
+}
+label {
+	display: inline-block;
+	width: 190px;
+    text-align: right;
+    padding-right: 6px;
+}
+.common{
+	display: block;
+	margin: 8px 0;
+}
+.category li{
+	display: inline-block;
+	width: 114px;
+	height: 30px;
+	margin: 0 10px 4px 0;
+	font-size: 2px;
+}
+.release{
+	display: block;
+	margin: 0 auto;
+	width: 264px;
+	height: 44px;
+	background-color: #8766bc;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 20px;
+}
+.pic{
+	font-size: 14px;
+	position: relative;
+	top: 20px;
+	left: 10px;
+}

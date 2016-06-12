@@ -1,0 +1,143 @@
+.shopping_list{
+	margin-left: 62px;
+	margin-top: 33px;
+}
+.shopping_list li{
+	float: left;
+	color: #795ca8;
+	height: 33px;
+	width: 128px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 33px;
+
+}
+ul .order_list{
+	text-align: center;
+	line-height: 33px;
+	background-color: #795ca8;
+	border-radius: 15px;
+	color: #fff;
+	width: 148px;
+}
+
+hr{
+	margin-top: 90px;
+}
+#order_content{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 805px;
+	height: 178px;
+	background-color: #fff;
+	border: 1px solid #fbcaca;
+	border-radius: 10px;
+}
+.top_content{
+	color: #fff;
+	background-color: #fbcaca;
+	width: 805px;
+	height: 54px;
+	float: left;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.check{
+	width: 16px;
+	height: 16px;
+	margin-left: 17px;
+	margin-top: 22px;
+}
+.message_list{
+	
+	margin-top: -20px;
+	margin-left: 44px;
+}
+.delete_list{
+	margin-top: -20px;
+	margin-left: 763px;
+	position: absolute;
+}
+
+.order_one{
+	margin-left: 0px;
+	border-right: 1px solid #fbcaca;
+	width:568px;
+	height: 123px;
+	float: left;
+}
+.product_picture{
+	width :103px;
+	height: 98px;
+	margin-left: 10px;
+	margin-top : 10px; 
+	float: left;
+}
+.product_introduce{
+	display: block;
+	width: 201px;
+	height: 98px;
+	margin-top : 10px; 
+	margin-left: 10px;
+	float: left;
+	font-size: 13px;
+}
+.amount{
+	display: inline-block;
+	margin-top : 18px; 
+	margin-left: 78px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+.price{
+	display: inline-block;
+	margin-top : 35px; 
+	margin-left: 78px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+.order_two{
+	margin-left: 0px;
+	border-right: 1px solid #fbcaca;
+	width:115px;
+	height: 123px;
+	float: left;
+}
+.order_two p{
+	margin-left: 20px;
+	margin-top: 15px;
+	
+}
+.order_three{
+	margin-left: 0px;
+	width:120px;
+	height: 123px;
+	float: left;
+	
+}
+.order_three p{
+	margin-left: 25px;
+	margin-top: 25px;
+}
+.pages{
+	text-align: right;
+	padding: 20px;
+}
+.pages span{
+  	background: #EEE;
+  	color: #000;
+  	border: 0;
+  	margin: 0 0 0 5px;
+  	padding: 5px 8px;
+}
+.pages a {
+  	/*background: #EEE;*/
+  	color: #454545;
+  	border: 0;
+  	margin: 0 0 0 5px;
+  	padding: 5px 8px;
+}
+.pages .current{
+  	background: #299982;
+  	color: #fff;
+}
